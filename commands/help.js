@@ -18,12 +18,11 @@ module.exports = {
    */
    run: async (client, message, args, { GuildDB }) => {
     let Embed = new MessageEmbed()
-            .setAuthor("Strings🎶", "https://cdn.discordapp.com/attachments/802907616451231756/883990127045664768/Light.png", "https://www.stringsmusicbot.tk/")
-            .setTitle("Strings Music Bot")
+            .setAuthor("Strings🎶 Music Bot", "https://cdn.discordapp.com/attachments/802907616451231756/883990127045664768/Light.png", "https://www.stringsmusicbot.tk/")
             .setColor("RANDOM")
-            .setThumbnail("https://cdn.discordapp.com/attachments/802907616451231756/883990127045664768/Light.png")
-            .setFooter("Bot Developed by XOUT#0509 and mochiron_desu#0057")
-            .setDescription("")
+            .setThumbnail("")
+            .setFooter("")
+            .setDescription("Commands of Strings music bot has beeen showcased in the web page! you can redirect to the link by [**Clicking here!**](https://www.stringsmusicbot.tk/commandsweb)")
   
 
     if (!args[0]) message.channel.send(Embed);
@@ -36,10 +35,10 @@ module.exports = {
 
       let embed = new MessageEmbed()
         .setAuthor("Strings🎶", "https://cdn.discordapp.com/attachments/802907616451231756/883990127045664768/Light.png", "https://www.stringsmusicbot.tk/")
-        .setDescription("")
+        .setDescription("Commands of Strings music bot has beeen showcased in the web page! you can redirect to the link by [**Clicking here!**](https://www.stringsmusicbot.tk/commandsweb)")
         .setColor("RANDOM")
-        .setThumbnail("https://cdn.discordapp.com/attachments/802907616451231756/883990127045664768/Light.png")
-        .setFooter("Bot Developed by XOUT#0509 and mochiron_desu#0057")
+        .setThumbnail("")
+        .setFooter("")
 
       message.channel.send(embed);
     }
@@ -74,9 +73,9 @@ SlashCommand: {
       let Embed = new MessageEmbed()
             .setAuthor("Strings🎶", "https://cdn.discordapp.com/attachments/802907616451231756/883990127045664768/Light.png", "https://www.stringsmusicbot.tk/")
             .setColor("RANDOM")
-            .setThumbnail("https://cdn.discordapp.com/attachments/802907616451231756/883990127045664768/Light.png")
-            .setDescription("")
-            .setFooter("Bot Developed by XOUT#0509 and mochiron_desu#0057");
+            .setThumbnail("")
+            .setDescription("Commands of Strings music bot has beeen showcased in the web page! you can redirect to the link by [**Clicking here!**](https://www.stringsmusicbot.tk/commandsweb)")
+            .setFooter("");
       if (!args) return interaction.send(Embed);
       else {
         let cmd =
@@ -87,10 +86,10 @@ SlashCommand: {
   
         let embed = new MessageEmbed()
           .setAuthor("Strings🎶", "https://cdn.discordapp.com/attachments/802907616451231756/883990127045664768/Light.png", "https://www.stringsmusicbot.tk/")
-          .setDescription("")
+          .setDescription("Commands of Strings music bot has beeen showcased in the web page! you can redirect to the link by [**Clicking here!**](https://www.stringsmusicbot.tk/commandsweb)")
           .setColor("RANDOM")
-          .setThumbnail("https://cdn.discordapp.com/attachments/802907616451231756/883990127045664768/Light.png")
-          .setFooter("Bot Developed by XOUT#0509 and mochiron_desu#0057");
+          .setThumbnail("")
+          .setFooter("");
   
         interaction.send(embed);
       }
