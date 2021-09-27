@@ -1,0 +1,43 @@
+{
+  "name": "strings-Music-Bot",
+  "description": "The Best Discord Music Bot",
+  "repository": "",
+  "logo": "https://cdn.discordapp.com/attachments/802907616451231756/883990127045664768/Light.png",
+  "keywords": ["discord music bot"],
+  "image": "",
+  "buildpacks": [
+      {
+          "url": ""
+      }
+  ],
+"env": {
+  "Prefix": {
+    "description": "The Discord Bot Prefix",
+    "required": "true"
+  },      
+  "Token": {
+    "description": "Bot Token",
+    "required": "true"
+  },
+  "Discord_ClientID": {
+    "description": "Bot ClientID",
+    "required": "true"
+  },
+  "Discord_ClientSecret": {
+    "description": "Bot ClientSecret",
+    "required": "true"
+  },
+  "Website": {
+    "description": "webserver url",
+    "value": "https://www.stringsmusicbot.tk"
+  },
+  "Spotify_ClientID": {
+    "description": "https://developer.spotify.com/dashboard/",
+    "required": "true"
+  },
+  "Spotify_ClientSecret": {
+    "description": "https://developer.spotify.com/dashboard/",
+    "required": "true"
+  }
+}
+}
