@@ -93,5 +93,5 @@ SlashCommand: {
   
         interaction.send(embed);
       }
-  },
+  }, 
 }};
