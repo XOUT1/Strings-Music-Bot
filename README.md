@@ -26,7 +26,9 @@
 
 
 <a href="">
-  <img src="https://avatars.githubusercontent.com/u/72451747?v=4?s=400" />
+  <img src="https://avatars.githubusercontent.com/u/72451747?v=4?s=400" alt="suraj"
+       border-radius= 50%;/>
+  
 </a>
 
 happieness!
