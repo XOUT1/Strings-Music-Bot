@@ -25,10 +25,6 @@
 
 
 
-## ✨ Contributors
-
-Contributions of this music bot project[Contributing.md](/CONTRIBUTING.md)
-
 <a href="">
   <img src="" />
 </a>
