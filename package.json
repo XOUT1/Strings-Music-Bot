@@ -1,53 +1,38 @@
 {
-  "name": "strings-music-bot",
-  "version": "4.1.1",
-  "description": "The Best Discord Music Bot",
+  "dependencies": {
+    "@discordjs/builders": "^0.11.0",
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/voice": "^0.7.5",
+    "colors": "^1.4.0",
+    "cpu-stat": "^2.0.1",
+    "discord.js": "^13.5.0",
+    "enmap": "^5.8.7",
+    "erela.js": "^2.3.3",
+    "erela.js-apple": "^1.2.6",
+    "erela.js-deezer": "^1.0.7",
+    "erela.js-facebook": "^1.0.4",
+    "erela.js-spotify": "^1.2.0",
+    "moment": "^2.29.1",
+    "ms": "^2.1.3",
+    "radio-browser": "^2.1.9"
+  },
+  "name": "strings_jr",
+  "version": "3.0.0",
+  "description": "NVM",
   "main": "index.js",
   "scripts": {
-    "install-node-v14": "wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash && export NVM_DIR=\"$([ -z \"${XDG_CONFIG_HOME-}\" ] && printf %s \"${HOME}/.nvm\" || printf %s \"${XDG_CONFIG_HOME}/nvm\")\" && [ -s \"$NVM_DIR/nvm.sh\" ] && \\. \"$NVM_DIR/nvm.sh\" && nvm install 14 && nvm use 14",
-    "start": "node index",
-    "rm-logs": "rm Logs.log"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/XOUT1/Strings-Music-Bot.git"
   },
-  "engines": {
-    "node": "14.x"
-  },
-  "keywords": [
-    "discord music bot"
-  ],
-  "author": "iwin siju",
-  "license": "SEE LICENSE IN LICENSE",
+
+  "author": "XOUT#0509",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/XOUT1/Strings-Music-Bot/issues"
+    "url": "https://github.com/XOUT1/Strings-Music-Bot/blob/main/README.md"
   },
-  "homepage": "https://github.com/XOUT1/Strings-Music-Bot.git#readme",
-  "dependencies": {
-    "colors": "^1.4.0",
-    "cpu-stat": "^2.0.1",
-    "discord.js": "^12.5.3",
-    "discordjs-activity": "1.2.0",
-    "erela.js": "^2.3.2",
-    "express": "^4.17.1",
-    "express-session": "^1.17.1",
-    "jsoning": "^0.11.0",
-    "lavasfy": "^2.3.0",
-    "lodash": "^4.17.21",
-    "lyrics-finder": "^21.7.0",
-    "moment": "^2.29.1",
-    "moment-duration-format": "^2.3.2",
-    "mongoose": "^5.12.3",
-    "ms": "^2.1.3",
-    "node-fetch": "^2.6.1",
-    "passport": "^0.4.1",
-    "passport-discord": "^0.1.4",
-    "pretty-ms": "^7.0.1",
-    "socket.io": "^4.0.1",
-    "winston": "^3.3.3"
-  },
-  "devDependencies": {
-    "prettier": "2.4.0"
-  }
+  "homepage": "https://github.com/XOUT1/Strings-Music-Bot/blob/main/README.md"
 }
