@@ -1,0 +1,26 @@
+{
+   "token": "OTM4NjgxMjE1NzQ0MDk0MjM4.Yft1AQ.zeJTek9zuCgE95Ru0t5aHubaOsM",
+   "prefix": "#",
+   "ownerIDS": [
+      "725444028920758272"
+   ],
+   "status": {
+      "text": "{prefix}help | played {songsplayed} Songs on {guildcount} Guilds | Beta bot of Strings",
+      "text2": "By: XOUT#0509",
+      "type": "PLAYING",
+      "url": "https://twitch.tv/#"
+   },
+   "clientsettings": {
+      "nodes": [
+         {
+            "host": "lava.link",
+            "port": 80,
+            "password": "strings"
+         }
+      ]
+   },
+   "spotify": {
+      "clientID": "45b7381d72894fd2a49e691c3622a063",
+      "clientSecret": "1b2c06e265a349e48f1d9630cc7b6efc"
+   }
+}
