@@ -1,5 +1,5 @@
 {
-   "token": "OTM4NjgxMjE1NzQ0MDk0MjM4.Yft1AQ.zeJTek9zuCgE95Ru0t5aHubaOsM",
+   "token": "My_Token",
    "prefix": "#",
    "ownerIDS": [
       "725444028920758272"
@@ -13,14 +13,14 @@
    "clientsettings": {
       "nodes": [
          {
-            "host": "lava.link",
+            "host": "",
             "port": 80,
             "password": "strings"
          }
       ]
    },
    "spotify": {
-      "clientID": "45b7381d72894fd2a49e691c3622a063",
-      "clientSecret": "1b2c06e265a349e48f1d9630cc7b6efc"
+      "clientID": "",
+      "clientSecret": ""
    }
 }
