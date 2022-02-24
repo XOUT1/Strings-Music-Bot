@@ -28,7 +28,7 @@ module.exports = {
       message.reply({
         embeds: [
           new MessageEmbed().setColor(es.color)
-          .setTitle(`${emoji.msg.search} Searching for your Request on ${emoji.msg.soundcloud} Soundcloud`)
+          .setTitle(`<:search:946342233341313025> Searching for your Request on ${emoji.msg.soundcloud} Soundcloud`)
           .setDescription(`\`\`\`${String(args.join(" ")).substr(0, 2000)}\`\`\``)
         ]
       })
@@ -37,7 +37,7 @@ module.exports = {
       message.reply({
         embeds: [
           new MessageEmbed().setColor(es.color)
-          .setTitle(`${emoji.msg.search} Searching for your Request on ${emoji.msg.spotify} Spotify`)
+          .setTitle(`<:search:946342233341313025> Searching for your Request on ${emoji.msg.spotify} Spotify`)
           .setDescription(`\`\`\`${String(args.join(" ")).substr(0, 2000)}\`\`\``)
         ]
       })
@@ -46,7 +46,7 @@ module.exports = {
       message.reply({
         embeds: [
           new MessageEmbed().setColor(es.color)
-          .setTitle(`${emoji.msg.search} Searching for your Request on ${emoji.msg.apple} Apple-Music`)
+          .setTitle(`<:search:946342233341313025> Searching for your Request on ${emoji.msg.apple} Apple-Music`)
           .setDescription(`\`\`\`${String(args.join(" ")).substr(0, 2000)}\`\`\``)
         ]
       })
@@ -55,7 +55,7 @@ module.exports = {
       message.reply({
         embeds: [
           new MessageEmbed().setColor(es.color)
-          .setTitle(`${emoji.msg.search} Searching for your Request on ${emoji.msg.youtube} Youtube`)
+          .setTitle(`<:search:946342233341313025> Searching for your Request`)
           .setDescription(`\`\`\`${String(args.join(" ")).substr(0, 2000)}\`\`\``)
         ]
       })
