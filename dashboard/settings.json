@@ -1,0 +1,12 @@
+{
+    "website": {
+        "support": "https://discord.gg/Sw6EWEUGxn",
+        "domain": "https://Strings-Main.xout.repl.co"
+    },
+    "config": {
+        "port": 80,
+        "callback": "https://Strings-Main.xout.repl.co/callback",
+        "clientID": "REPL SECRET",
+        "secret": "REPL SECRET"
+    }
+}

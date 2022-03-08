@@ -54,6 +54,12 @@ Object.freeze(client.la)
 client.setMaxListeners(25);
 require('events').defaultMaxListeners = 25;
 
+/**********************************************************
+ * @LOAD_THE_DASHBOARD
+ * *******************************************************/
+client.on("ready", () => {
+  require("./dashboard/index.js")(client);
+})
 
 
 /**********************************************************
